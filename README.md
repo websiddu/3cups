@@ -1,6 +1,7 @@
-3cups
-=====
+3cups - Simple Jquery game
+==========================
 
-A simple jquery 3cups game
+This is a simple 3cups game develped using jquery basic functions like animate and delay.
 
-http://sid-credits.com/3cups/
+### Demo ###
+http://sidg.github.com/3cups/
