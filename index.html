@@ -4,18 +4,17 @@
 	<meta charset="UTF-8">
 	<title>3cups Game | Using Jquery</title>
 	  <script type ="text/javascript">
-  if (navigator.appName == 'Microsoft Internet Explorer')
-  {
-    window.location = "ie.html"
-  }
+      if (navigator.appName == 'Microsoft Internet Explorer')
+      {
+        window.location = "ie.html"
+      }
   </script>
-	<script src="js/jquery.js" type="text/javascript" charset="utf-8" async defer></script>
-	<script src="js/jqueryui.js" type="text/javascript" charset="utf-8" async defer></script>
-	<script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script> 
-	<link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/jqueryui.css" />
 </head>
 <body>
 	<div id="content">
+    <div id="js_speed_slider"></div>
 		<div id="kick_jump">
 			<img src="img/kick_jump.png" alt="">
 		</div>
@@ -42,7 +41,12 @@
 
 	</div>
 	
-	<div id="footer"><span style="color:#333; font-size:12px;" >Note: Use firefox or Chrome only , if the shuffling was not done correctly refresh and try again..  <a href="http://github.com/sidg" target="_blank">http://github.com/sidg</a></span>
-</div>
+	<div id="footer">
+    <span style="color:#333; font-size:12px;" >Note: Use Firefox or Chrome only , if the shuffling was not done correctly refresh and try again..  <a href="http://github.com/sidg" target="_blank">http://github.com/websiddu</a></span>
+  </div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jqueryui.js"></script>
+  <script src="js/script.js"></script> 
 </body>
 </html>
