@@ -1,3 +1,4 @@
+$(document).ready(function() {
 (function() {
   var box1 = $("#box1"),
     box2 = $("#box2"),
@@ -194,7 +195,7 @@
                 }
 
                 function print_error() {
-                  setMessage("LOL!!! you lost noting found.. :P :P <a href='index.html' >try again</a>", "color_1");
+                  setMessage("Noting found.. :P :P <a href='index.html' >try again</a>", "color_1");
                 }
 
 
@@ -206,16 +207,14 @@
         });
       }
     });
-
-
-
   });
-
 
   function setMessage(message, color) {
     messageBar.html(message).addClass(color);
   }
 
-
-
 })();
+
+
+});
+
