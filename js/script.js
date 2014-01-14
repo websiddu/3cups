@@ -195,7 +195,7 @@ $(document).ready(function() {
                 }
 
                 function print_error() {
-                  setMessage("Noting found.. :P :P <a href='index.html' >try again</a>", "color_1");
+                  setMessage("Nothing found.. :P :P <a href='index.html' >try again</a>", "color_1");
                 }
 
 
